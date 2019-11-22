@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*左边导航栏*/
+
+.side-top {
+	width: 160px;
+	height: 66px;
+	margin: 0 10px;
+}
+.side-top-ct {
+	width: 160px;
+	height: 18px;
+	margin-top: 6px;
+	padding-top: 42px;
+	text-align: center;
+	text-decoration:none;
+}
+.side-content {
+	width: 180px;
+	height: 60%;
+}
+.side-list {
+	width: 180px;
+	margin: 0;
+	padding: 0; 
+}
+.side-item {
+}
+.side-item-main {
+	width: 150px;
+	height: 24px;
+	margin: 0;
+	padding: 14px 0 14px 30px;
+}
+.side-item-extra {
+	display: none;
+	width: 150px;
+	margin: 0;
+	padding: 0 0 0 50px;
+}
+span#icon {
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	padding-left:10px;
+	padding-bottom: 15px; 
+	vertical-align:middle;
+}

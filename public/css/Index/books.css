@@ -1,0 +1,119 @@
+/* *
+books页面样式
+ */
+@charset "UTF-8";
+	#books-box {
+		padding: 0 80px;
+	}
+	#books-box-search {
+		position: relative;
+		margin: 20px 0;
+		padding: 0 80px;
+		width: 1190px;
+		height: 100px;
+	}
+	#search-in {
+		position: absolute;
+		top: 30px;
+		left: 380px;
+		width: 500px;
+		height: 40px;
+		border-style: 2px solid red;
+	}	
+	#submit {
+		position: absolute;
+		top: 30px;
+		left: 880px;
+		width: 80px;
+		height: 40px;
+		border-style: 2px solid red;
+	}
+	#books-box-cates {
+		position: relative;
+		margin-top: 20px;
+		height: auto;
+		background-color: #F7F5F5;
+		border:2px solid #D1CCC7;
+		overflow: hidden;
+	}
+	#bbc-cates {
+		padding: 7px 0 0;
+		width: 10%;
+		color: #B0A59F;
+		text-indent: 13px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+	#bbc-cate-main {
+		position: absolute;
+		left: 118px;
+		top: 0;
+		width: 1066px;
+		background-color: #FFFFFF;
+	}
+	#bbc-cate-list {
+		width: 966px;
+		list-style: none;
+		overflow: hidden;
+		padding: 0;
+	}
+	.bbc-cate-item {
+		margin: 8px 8px 8px 0;
+		float: left;
+		width: 170px;
+		height: 22px;
+		text-align: center;
+		line-height: 22px;
+	}
+	#bbc-button {
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 105px;
+		padding-top:4px; 
+		text-align: center;
+		background-color: #FFFFFF;
+		z-index: 1;
+	}
+	#books {
+		padding: 40px 0px;
+		width: 1140px;
+		height: auto;
+	}
+	.book {
+		display: inline-block;
+		float: left;
+		padding: 10px 5px;
+		width: 210px;
+		height: 330px;
+		border: 2px solid #FFFFFF;
+	}
+	#book-img {
+		display: block;
+		width: 210px;
+		height: ;
+	}
+	.book p {
+		padding: 0;
+		height:18px;
+		margin-top: 5px;
+		
+	}
+	#book-price {
+		font-size: 16px;
+	}
+	#book-title {
+		font-size: 16px;
+	}
+	#order-icon {
+		height: 16px;
+		margin-top: 5px;
+		font-size: 13px;
+	}
+	#order-num {
+		float: left;
+	}
+	#comment-num {
+		float: left;
+		margin-left: 8px;
+	}

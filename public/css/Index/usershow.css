@@ -1,0 +1,125 @@
+
+	#ub-main {
+		
+	}
+	#ubm-left {
+		display: inline-block;
+		float: left;
+		padding: 12px 0 0 80px;
+	}
+	#ubm-left ul li {
+		width: 100px;
+		margin-top: 15px;
+		line-height: 26px;
+		font-size: 14px;
+		/*color: #6D6D6D;*/
+	}
+	#ubm-user {
+		display: inline-block;
+		float: left;
+		width: 60%;
+		margin-top: 30px;
+		padding-left: 40px;
+	}
+	#ubm-user-detials {
+		width: 726px;
+		height: 72px;
+		padding:16px 0 0;
+		background: #f5f8fa; 
+		border:1px solid #E4EAEE;
+	}
+	#ubm-user-pic {
+		display: inline-block;
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin-left: 20px;
+	}
+	#ubm-user-msg {
+		display: inline-block;
+		float: left;
+		width: 160px;
+		color: #000000;
+	}
+	#ubm-user-address {
+		display: inline-block;
+		float: left;
+		margin:20px 0px 20px 160px;
+		width: 100px;
+	}
+	#ubm-order {
+		width: 726px;
+		height: 28px;
+		padding: 12px 0;
+		border:1px solid #E4EAEE;
+	}
+	#ubmo-list {
+
+	}
+	#ubmo-list li{
+		display: inline-block;
+		width: 97px;
+		height: 18px;
+		-webkit-margin: 0;
+		padding: 5px 22px;
+		color: #4b4b4b; 
+		text-align: center;
+		border-right:1px solid #E4EAEE;
+	}
+	#ubm-user-postmsg {
+		width: 726px;
+		height: 104px;
+		margin-top: 30px;
+		border:1px solid #E4EAEE;
+	}
+	#ubmu-title {
+		width: 726px;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		background-color: #f5f8fa;
+		border-bottom: 1px solid #E4EAEE; 
+	}
+	#ubmu-title p {
+		width: 100px;
+		height: 18px;
+		margin: 0;
+		padding-top: 14px;
+		padding-left: 40px;
+		font-size: 18px;
+		color: #000000;
+		font-weight: 500;
+	}
+	#ubmu-content {
+		width: 726px;
+		height: 54px;
+	}
+	#ubm-user-like {
+		width: 726px;
+		height: 800px;
+		margin-top: 30px;
+		border: 1px solid #E4EAEE;
+	}
+	#ubm-right {
+		width: 300px;
+		float: left;
+	}
+	#ubm-right-data {
+		width: 300px;
+		height: 183px;
+		margin-top: 30px;
+	}
+	#ubm-data-title {
+		width: 300px;
+		height: 50px;
+		background: #6ec884;
+	}
+	#ubm-data-content {
+		margin-top: 50px;
+		background: #f8fffa;
+	}
+	#ubm-right-tools {
+		width: 300px;
+		height: 268px;
+		margin-top: 30px;
+	}

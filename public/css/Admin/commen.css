@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ *
+ *公共样式
+ * 
+ */
+@font-face{
+		font-family: "stkaiti","orion-font";
+		src:url("/public/fonts/stkaiti.ttf");
+		src:url("/public/fonts/orion-font.ttf");
+		font-weight: normal;
+		font-style: normal;
+		
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	font-family:"stkaiti";
+	color: #000000;
+	text-align:left;
+	font-size: 15px;
+	line-height: 160%;
+}
+p span{
+	font-family: "stkaiti";
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+	line-height: 160%;
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	line-height: 160%;
+}
+a {
+	text-decoration:none; 
+}

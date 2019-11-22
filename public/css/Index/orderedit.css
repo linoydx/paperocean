@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+/* *
+ * 订单确认页面样式
+ * 
+ */
+	#order {
+		margin: 10px 80px;
+		padding: 2px 40px;
+	}
+	#post-address {
+		position: relative;
+		width: 1100px;
+		height: auto;
+		background: #f2f7ff;
+	}
+	#pa-title {
+		margin-left: 30px;
+		padding-top: 10px; 
+		height: 26px;
+		color: #000;
+		font-size: 14px;
+		font-weight: 700;
+		line-height: 26px;
+	}
+	#pa-list {
+		position: relative;
+		height: 195px;
+		padding:5px 10px;
+		list-style: none;
+		overflow: hidden;
+	}
+	
+	.pa-list-item {
+		float: left;
+		display: block;
+		width: 254px;
+		height: 180px;
+		border:2px solid #fff;
+		margin-left: 10px;
+		margin-top: 10px;
+	}
+	.pa-list-selected {
+		border: 2px dotted red;
+	}
+	.pa-list-item p {
+		color: #000;
+		font-size: 14px;
+		line-height: 16px;
+		width: 234px;
+		margin: 10px 10px;
+	}
+	.pa-list-item span {
+		color: #000;
+		font-size: 14px;
+		font-weight: 700;
+	}
+	#pa-button {
+		height: 30px;
+		margin: 10px 20px;
+	}
+	#pab-left {
+		float: left;
+	}
+	#pab-right {
+		float: right;
+	}
+	#order-box {
+		margin:10px 0;
+		width: 1100px; 
+	}
+	#ob-header {
+
+	}
+	#ob-titles {
+		line-height: 25px;
+    	color: #333;
+    	font-weight: 700;
+    	font-size: 14px
+		height: 25px;
+	}
+	#ob-title {
+    	height: 24px;
+    	color: #6c6c6c;
+    	line-height: 24px;
+    	text-align: center;
+    	border-bottom: 3px solid #b2d1ff;
+    	font-size: 14px;
+    	vertical-align: bottom;
+	}
+	.obt-item {
+		float: left;
+		margin-left: 2px;
+    	color: #6c6c6c
+	}
+	.ob-book {
+		width: 305px;
+	}
+	.ob-attr {
+		width: 230px;
+	}
+	.ob-price {
+		width: 120px;
+	}
+	.ob-num {
+		width: 120px;
+	}
+	.ob-tip {
+		width: 180px;
+	}
+	.ob-total {
+		width: 130px;
+	}
+	.ob-main {
+		width: 1000px;
+		margin-top: 20px;
+	}
+	.ob-books {
+		margin-top: 20px;
+		padding-top: 10px; 
+		height: 40px;
+		color: #3c3c3c;
+		font-size: 14px;
+		line-height: 1.5;
+		text-align: center;
+    	vertical-align: top;
+		background-color: #fbfcff;
+		border-top: 1px dotted #dddddd;
+    	border-bottom: 1px dotted #dddddd; 
+	}
+	.ob-num button {
+		display: inline;
+		width: 30px;
+		height: 30px;
+		color: #333;
+		/*color: #ccc;*/
+		font-size: 14px;
+		font-weight: 400px;
+		/*background-color: #f7f8fa;*/
+		background-color: #fff;
+		border: 1px solid #e6e7eb;
+		cursor: pointer;
+	}
+	.book-num {
+		width: 30px;
+		height: 26px;
+	}
+	#ob-total {
+		color: #ff0036;
+		text-align: right;
+		font-weight: bold;
+    	font-style: normal;
+    	text-decoration: none;
+	}
+	#ob-post {
+		display: flex;
+    	flex-direction: column;
+    	justify-content: flex-start;
+    	align-items: stretch;
+    	margin-top: 40px;
+    	padding: 0px;
+    	background-color: #f2f7ff;
+    	border-bottom: 1px dotted #80b2ff;
+	}
+	#obp-wrap {
+		float: left;
+		border: 1px solid #ffffff;
+	}
+	#obp-invoice {
+		width: 530px;
+		height: 40px;
+		border-top: 1px solid #ffffff;
+	}
+	#obp-style {
+		width: 530px;
+		height: 40px;
+		border-top: 1px solid #ffffff;
+	}
+	#obp-style span {
+		float: right;
+		color: #ff0036;
+		padding-right: 10px;
+	}
+	#obp-note {
+		float: left;
+		width: 546px;
+		height: 70px;
+		padding: 5px 10px;
+		text-align: top;
+		vertical-align: top;
+		border: 1px solid #ffffff;
+	}
+	#obp-cost {
+		width: 1100px;
+		height: 30px;
+		border: 1px solid #ffffff;
+	}
+	#obp-cost span{
+		float: right;
+		color: #ff0036;
+		padding-right: 10px;
+	}
+	#ob-sub-box {
+		position: relative;
+		height: 210px;
+		margin-top: 40px;
+		border-top: 1px dotted #80b2ff;
+	}
+	#obs-msg {
+		position: absolute;
+		top: 2px;
+		right: 2px;
+		border: 1px solid #ff0036;
+	}
+	#obs-msg-shadow {
+		border: 3px solid #fff0e8;
+		height: 140px;
+    	width: 430px;
+    	padding: 10px 5px 10px 20px;
+    	vertical-align: middle;
+    	text-align: right;
+    	font-size: 14px;
+    	font-weight: 700;
+    	color: #333;
+	}
+	#obs-msg-shadow div {
+		margin: 10px 8px;
+	}
+	#obs-msg-shadow span {
+		font-size: 12px;
+		font-weight: normal;
+	}
+	#ob-total-cost {
+		color: #ff0036;
+		font-size: 26px;
+		font-weight: 700;
+	}
+	#obs-button {
+		position: absolute;
+		top: 170px;
+		right: 2px;
+		padding: 0;
+	}
+	#obs-button input{
+		width: 182px;
+    	height: 39px;
+    	padding: 0;
+    	vertical-align: middle;
+    	line-height: 39px;
+    	cursor: pointer;
+    	text-align: center;
+    	font-size: 14px;
+    	font-weight: 700;
+    	background: #dd2727;
+    	color: #fff;
+    	border:none;
+	}
